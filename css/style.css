@@ -7,7 +7,7 @@ p{
   font-size: 18px;
 }
 header{
-  background-color: #F63232;
+  background-color: #D32F2F;
   padding: 20px 0;
   text-align: center;
   position: fixed;
@@ -31,7 +31,7 @@ header .logo{
 }
 .banner .welcome{
   background:#FEB614;
-  color: white;
+  color: #000000;
   padding: 30px;
   font-size: 60px;
   position: absolute;
@@ -68,7 +68,7 @@ nav li a:hover{
   text-decoration: underline;
 }
 nav li a.join{
-  color: #F63232;
+  color: #D32F2F;
 }
 main{
   max-width: 100%;
@@ -79,7 +79,7 @@ main{
   box-sizing: border-box;
 }
 article h2{
-  color: #F63232;
+  color: #D32F2F;
   font-size: 48px;
 }
 article p{
@@ -176,7 +176,7 @@ input[type="submit"]:focus {
     outline: none
 }
 footer{
-  background: #F63232;
+  background: #D32F2F;
   color: white;
   padding: 10px;
   text-align: center;
