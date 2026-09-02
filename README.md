@@ -1200,6 +1200,9 @@ Din opgave er derfor at **teste fokusmarkeringen**, ikke blot at fjerne eller er
 
 Hvis fokus ikke er tydeligt nok, skal du forbedre CSS'en og teste igen.
 
+
+- Alle fire sider er testet med Tab, Shift+Tab og Enter. Alle links, formularfelter og knapper kan nås med tastaturet, fokus følger en logisk rækkefølge, og fokusmarkeringen er tydelig. Fokusstylingen blev justeret, så interaktive elementer har en ensartet og synlig fokusindikator.
+
 ---
 
 # Opgave 11 – Kør Lighthouse igen

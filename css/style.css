@@ -23,6 +23,7 @@ header .logo{
   padding: 6px 12px;
   border-radius: 36px;
 }
+
 .banner{
   position: relative;
 }
@@ -180,6 +181,15 @@ footer{
   color: white;
   padding: 10px;
   text-align: center;
+}
+
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 4px dashed #000000;
+  outline-offset: 4px;
 }
 
 /* responsive styles */
