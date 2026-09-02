@@ -359,6 +359,8 @@ Sammenlign originalen og WebP-versionen i browseren.
 
 Hvis kvaliteten ikke er tilfredsstillende, skal du eksportere billedet igen med en højere kvalitetsindstilling.
 
+Kvaliteten af de nye webp billeder kontra jpg er uændret, de har samme kvalitet.
+
 ---
 
 # Opgave 4 – Opdatér billedreferencer og brug lazy loading med omtanke
