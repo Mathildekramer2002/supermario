@@ -194,6 +194,8 @@ Inden du ændrer noget i koden, skal du lave en måling af sitets nuværende per
 
 Du skal som minimum registrere performance-resultatet før optimering.
 
+Performance score inden = 75
+
 ## Forkert
 
 ```text
