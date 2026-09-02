@@ -1311,6 +1311,10 @@ Inden du afslutter opgaven, skal du kontrollere:
 - [ ] Resultater før og efter er sammenlignet.
 
 ---
+## Validering af HTML-filer
+Alle fire HTML-sider er valideret med W3C HTML Validator, og der blev ikke fundet nogen fejl.
+
+
 
 # Værktøjer i opgaven
 
