@@ -1243,12 +1243,12 @@ Notér resultaterne før og efter optimering.
 
 Du kan eksempelvis bruge denne tabel:
 
-| Side | Performance før | Performance efter | Accessibility efter |
-|---|---:|---:|---:|
-| `index.html` |  |  |  |
-| `news.html` |  |  |  |
-| `games.html` |  |  |  |
-| `contact.html` |  |  |  |
+| Side          | Performance før | Performance efter | Accessibility efter |
+|---            |---             :|---               :|                 ---:|
+| `index.html`  |        75       |        91         |         100         |
+| `news.html`   |        75       |       100         |         100         |
+| `games.html`  |        75       |        96         |         100         |
+| `contact.html`|        75       |        99.        |         100         |
 
 Skriv derefter kort:
 
