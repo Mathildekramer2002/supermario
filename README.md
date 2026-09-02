@@ -1253,11 +1253,22 @@ Du kan eksempelvis bruge denne tabel:
 Skriv derefter kort:
 
 1. Hvilke ændringer gav den største performanceforbedring?
+- Den største performanceforbedring kom fra optimering af billederne. Især bannerbilledet og de to thumbnail-billeder blev gjort mindre og eksporteret som WebP. Det reducerede filstørrelserne og forbedrede Lighthouse-scoren markant.
+
 2. Hvilke accessibility-problemer fandt du?
+- Jeg fandt blandt andet problemer med farvekontrast, formularfelter uden tilstrækkelige labels og autocomplete, manglende tydelig fokusmarkering samt områder, hvor navigation og struktur skulle kontrolleres.
+
 3. Hvilke problemer kunne Lighthouse finde?
+- Lighthouse kunne blandt andet finde problemer med performance, især store billeder, samt automatiske accessibility-problemer som kontrast og visse HTML- og formularrelaterede fejl. Lighthouse kunne dog ikke vurdere alle problemer, der kræver menneskelig vurdering.
+
 4. Hvilke problemer fandt WAVE?
+- WAVE fandt kontrastfejl og et alert om et redundant link. Kontrastfejlene blev rettet. Det redundante link blev undersøgt og beholdt, fordi logoet og navigationslinket har forskellige funktioner, selvom de fører til samme side.
+
 5. Hvilke problemer krævede HeadingsMap eller manuel kontrol?
+- Headingstrukturen krævede kontrol med HeadingsMap. Tastaturnavigation, fokus-rækkefølge, synlig fokusmarkering, alt-tekster og vurderingen af WAVE-alerts krævede manuel kontrol.
+
 6. Hvad har du lært om sammenhængen mellem performance og accessibility?
+- Jeg har lært, at performance og accessibility godt kan hænge sammen, fordi en hurtig og overskuelig hjemmeside også kan være nemmere at bruge. Men en god performance-score betyder ikke nødvendigvis, at hjemmesiden er tilgængelig. Derfor er det vigtigt både at bruge Lighthouse og andre værktøjer, men også selv teste hjemmesiden manuelt.
 
 ---
 
