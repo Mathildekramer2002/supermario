@@ -1157,6 +1157,9 @@ og
 noget der kræver menneskelig vurdering
 ```
 
+- WAVE viste ét alert på alle fire sider: “Redundant link”. Alerten skyldes, at både Marioclub-logoet og “Join the club” linker til index.html. Jeg har valgt ikke at ændre dette, da logoet fungerer som et naturligt link til forsiden, mens “Join the club” er en del af hovednavigationen. Alerten er derfor vurderet og kræver ikke en ændring.
+
+
 ---
 
 ## 10.5 – Test også med tastatur
